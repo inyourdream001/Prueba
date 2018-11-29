@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PRUEBA</title>
+    <script>
+function resultado() {
+var p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, nota;
+<!-- 1ª pregunta -->
+if (document.getElementById('p11').checked==true) {p1=1}
+else {p1=0}
+<!-- 2ª pregunta -->
+if (document.getElementById('p22').checked==true) {p2=1}
+else {p2=0}
+<!-- 3ª pregunta -->
+if (document.getElementById('p33').checked==true) {p3=1}
+else {p3=0}
+<!-- 4ª pregunta -->
+if (document.getElementById('p44').checked==true) {p4=1}
+else {p4=0}
+<!-- 5ª pregunta -->
+if (document.getElementById('p55').checked==true) {p5=1}
+else {p5=0}
+<!-- 6ª pregunta -->
+if (document.getElementById('p66').checked==true) {p6=1}
+else {p6=0}
+<!-- 7ª pregunta -->
+if (document.getElementById('p77').checked==true) {p7=1}
+else {p7=0}
+<!-- 8ª pregunta -->
+if (document.getElementById('p88').checked==true) {p8=1}
+else {p8=0}
+<!-- 9ª pregunta -->
+if (document.getElementById('p99').checked==true) {p9=1}
+else {p9=0}
+<!-- 10ª pregunta -->
+if (document.getElementById('p10').checked==true) {p10=1}
+else {p10=0}
+nota=p1+p2+p3+p4+p5+p6+p7+p8+p9+p10;
+alert(" Aciertos: " + nota);
+location.reload();
+}
+</script>
+</head>
+<body>
+<h2>PRUEBA DE PROGRAMACION</h2>
+<hr>
+<form style="font:normal 16px sans-serif">
+<p>1.- ¿Que es un algoritmo?</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta1" id="p11"> Pasos para resolver un problema</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p12"> Secuencia de instrucciones</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p13"> Hipertexto</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p14"> Codigo ejecutable</p>
+
+<p>2.- ¿Cual es la funcion principal de un programa?</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p21"> Crear instrucciones que entiende un ordenador</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta2" id="p22"> Resolucion de problemas empleados en el ordenador</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p23"> Utilizar un solo lenguaje de programacion</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p24"> Modificar la estructura de un Hipertexto</p>
+
+<p>3.- ¿Que es JavaScript?</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p31"> El conjunto de letras, numeros y simbolos</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p32"> El unico lengguaje para diseño web</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta3" id="p33"> Es un lenguaje interpretado perteneciente a la web HTML</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p34"> Conjunto de instrucciones que deben ser ejecutadas</p>
+
+<p>4.- El comando 'write' del objeto document nos permite:</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p41"> Ingresar datos en una variable</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p42"> Escribir cualquier tipo de dato</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p43"> Contar el numero de caracteres de un arreglo</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta4" id="p44"> Imprimir dentro de la pagina HTML</p>
+
+<p>5.- Los principales tipos de datos son:</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta5" id="p51"> De tipo entero, reales, caracteres, logicos</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta5" id="p52"> De tipo numericos y alfabeticos</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta5" id="p53"> Solo alfanumericos</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta5" id="p54"> Solo simbolos</p>
+
+<p>6.- if, else, for y while son</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta6" id="p61"> Funciones de acceso a datos</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta6" id="p62"> Sentencias de control</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta6" id="p63"> Tipos de datos</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta6" id="p64"> Operadores</p>
+
+<p>7.- ¿Cómo calculo el tanto por ciento de un número en Java?</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta7" id="p71"> Con el operador %</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta7" id="p72"> Math.percentage</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta7" id="p73"> Math.Percent</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta7" id="p74"> Se debe calcular por operaciones </p>
+
+<p>8.- ¿Cómo sumarias una unidad a la variable x?</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta8" id="p81"> x = x + 1;</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta8" id="p82"> x += 1;</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta8" id="p83"> x++;</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta8" id="p84"> Todas las anteriores</p>
+
+<p>9.- La programación se puede definir como...
+<!-- <select <input type="radio" name="lista" id="lista">
+  <option >el proceso de diseñar, codificar, depurar y mantener el código fuente de programas de ordenador</option>
+  <option >la ejecución de programas de ordenador desde la línea de comandos</option>
+  <option >la instalación de programas en sistemas operativos desde la línea de comandos</option>
+  <option >Las anteriores respuestas no son correctas</option>
+  </p> -->
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta9" id="p91"> el proceso de diseñar, codificar, depurar y mantener el código fuente de programas de ordenador</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta9" id="p92"> la ejecución de programas de ordenador desde la línea de comandos </p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta9" id="p93"> la instalación de programas en sistemas operativos desde la línea de comandos</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta9" id="p94"> Las anteriores respuestas no son correctas </p>
+
+
+<p>10.- Para que sirve el metodo 'getElementById' del objeto document</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta10" id="p101"> Modificar el nombre del elemento que hayamos ingresado en el valor de la variable</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta10" id="p102"> Seleccionar un elemento del documento por medio del valor del atributo id que se le haya asignado</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta10" id="p103"> Contar el numero de elementos que hayamos ingresado en un arreglo</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta10" id="p104"> Acceder al tipo de elemento que hayamos declarado dentro del from</p>
+<hr>
+<p><input type="button" value=" R E S U L T A D O " onclick="resultado()"/></p>
+</form>
+  </body>
+</html>
